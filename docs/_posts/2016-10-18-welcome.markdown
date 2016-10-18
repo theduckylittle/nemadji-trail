@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Welcome to the new home page of the Nemadji Trail Rally!
 
 Check here for updates, supplemental regulations, and links to helpful rally information.
