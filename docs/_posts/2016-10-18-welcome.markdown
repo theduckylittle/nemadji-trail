@@ -1,5 +1,6 @@
 ---
 layout: post
+title: New homepage!
 ---
 
 # Welcome to the new home page of the Nemadji Trail Rally!
