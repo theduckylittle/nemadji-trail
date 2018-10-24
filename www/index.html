@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="5; URL='https://www.facebook.com/nemadjirally/'" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>Nemadji Trail Rally</title>
@@ -12,19 +11,59 @@
         font-family: 'Montserrat', sans-serif;
       }
 
-      #logo, #byline {
-        width: 500px;
-        text-align: center;
+      #top-row {
+        display: flex;
+        margin-left: 40px;
+        margin-right: 40px;
+        justify-content: center;
+      }
+
+      #logo {
+        display: unset;
+        width: 340px;
+      }
+
+      #byline {
+        display: block;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      #important-links {
+        margin-top: 2em;
       }
     </style>
   </head>
   <body>
-    <div id="logo">
-      <img height="300" src="logo-white.png" />
+    <div id="top-row">
+      <div id="logo">
+        <center>
+          <img width="300" src="logo-white.png" />
+        </center>
+        <div id="byline">
+          To find the most up to date information regarding the Nemadji Trail Rally <a href="https://www.facebook.com/nemadjirally/">click here to visit our Facebook page.</a>
+        </div>
+
+        <div id="important-links">
+          Important Links:
+          <ul>
+            <li><a href="http://nemadji-rally.com/files/2018/Nemadji%20Trail%20Rally%20Supplemental%20Regulations%202018.pdf?fbclid=IwAR0MKXn4uSAE7kaSyOPin73mtOjHodBVp0WwUjiTcmh9bHIRg_npmL2EmwE">2018 Supplemental Regulations</a></li>
+            <li><a href="http://www.rallymasterpro.com/workers/?group=2&fbclid=IwAR3JuATHoM16F_D797p5CmsGmqIURNSmW9xlWI69obgZrftzuYHAQLpPG-g">Volunteer Registration</a></li>
+            <li><a href="https://www.facebook.com/nemadjirally/">Facebook page</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="fb-iframe">
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnemadjirally%2F&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=544664432299180"
+            width="340"
+            height="700"
+            style="border:none;overflow:hidden"
+            scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+        </iframe>
+      </div>
     </div>
-    <div id="byline">
-      To find the most up to date information regarding the Nemadji Trail Rally <a href="https://www.facebook.com/nemadjirally/">click here to visit our Facebook page.</a>
-    </div>
+ 
   </body>
 </html>
- 
