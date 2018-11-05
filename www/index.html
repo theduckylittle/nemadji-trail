@@ -11,7 +11,7 @@
         font-family: 'Montserrat', sans-serif;
       }
 
-      #top-row {
+      #top-row, #entry-list-parent {
         display: flex;
         margin-left: 40px;
         margin-right: 40px;
@@ -31,6 +31,22 @@
 
       #important-links {
         margin-top: 2em;
+      }
+
+      #entry-list {
+        width: 680px;
+        margin-left: 40px;
+        margin-right: 40px;
+        flex: 2;
+      }
+
+      #entry-list table {
+        width: 100%;
+        border-spacing: 0;
+      }
+
+      tr.odd {
+        background-color: #eee;
       }
     </style>
   </head>
@@ -65,7 +81,25 @@
             scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
         </iframe>
       </div>
+
+
     </div>
- 
+    <div id="entry-list-parent">
+      <div id="entry-list">
+        <h2>Current entry list</h2>
+        <table>
+          <thead>
+            <tr id="entry-header">
+            </tr>
+          </thead>
+          <tbody id="entry-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.1/papaparse.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
   </body>
 </html>
