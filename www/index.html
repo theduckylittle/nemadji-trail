@@ -9,6 +9,8 @@
     <style>
       body {
         font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
       }
 
       #top-row, #entry-list-parent {
@@ -48,9 +50,25 @@
       tr.odd {
         background-color: #eee;
       }
+
+      #footer, #header {
+        margin: 0;
+        background-color: #efefef;
+        height: 1em;
+      }
+
+      #header {
+        margin-bottom: 1em;
+      }
+
+      #footer {
+        margin-top: 2em;
+      }
     </style>
   </head>
   <body>
+    <div id="header"></div>
+
     <div id="top-row">
       <div id="logo">
         <center>
@@ -100,6 +118,8 @@
       </div>
     </div>
 
+    <div id="footer">
+    </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.1/papaparse.js"></script>
     <script type="text/javascript" src="./index.js"></script>
